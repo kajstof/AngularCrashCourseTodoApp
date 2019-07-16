@@ -8,13 +8,15 @@ import { CoursesListComponent } from './components/courses-list/courses-list.com
 import { CoursesService } from './services/courses.service';
 import { TodosComponent } from './components/todos/todos.component';
 import { TodoItemComponent } from './components/todo-item/todo-item.component';
+import { HeaderComponent } from './components/layout/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CoursesListComponent,
     TodosComponent,
-    TodoItemComponent
+    TodoItemComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
